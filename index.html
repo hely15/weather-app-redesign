@@ -25,7 +25,7 @@
                 </div>
                 <div class="div__image">
                     <img id="icon" src="storage/img/cloud_and_sun_1.png">
-                    <span id="status">Cloudy</span>
+                    <span id="status" style="font-size: 15px; ">Cloudy</span>
                 </div>
             </div>
             <div id="div__footer" class="div__footer">
@@ -41,74 +41,75 @@
    </header>
 
 
-<div class="data-grid">
-    <div class="data-card">
-        <div class="data-icon"><img src="storage/img/air.png"></div>
-        <div>
-            <div class="data-label">Wind speed</div>
-            <div class="data-value">12km/h <span class="change-indicator">▼ 2 km/h</span></div>
+    <div id="data_grid" class="data-grid">
+        <div class="data-card">
+            <div class="data-icon"><img src="storage/img/air.png"></div>
+            <div>
+                <div class="data-label">Wind speed</div>
+                <div class="data-value">12km/h <span class="change-indicator">▼ 2 km/h</span></div>
+            </div>
+        </div>
+        <div class="data-card">
+            <div class="data-icon"><img src="storage/img/rainy.png"></div>
+            <div>
+                <div class="data-label">Rain chance</div>
+                <div class="data-value">24% <span class="change-indicator">▲ 10%</span></div>
+            </div>
+        </div>
+        <div class="data-card">
+            <div class="data-icon"><img src="storage/img/waves.png"></div>
+            <div>
+                <div class="data-label">Pressure</div>
+                <div class="data-value">720 hpa <span class="change-indicator">▲ 32 hpa</span></div>
+            </div>
+        </div>
+        <div class="data-card">
+            <div class="data-icon"><img src="storage/img/light_mode.png"></div>
+            <div>
+                <div class="data-label">UV Index</div>
+                <div class="data-value">2,3 <span class="change-indicator">▼ 0.3</span></div>
+            </div>
         </div>
     </div>
-    <div class="data-card">
-        <div class="data-icon"><img src="storage/img/rainy.png"></div>
-        <div>
-            <div class="data-label">Rain chance</div>
-            <div class="data-value">24% <span class="change-indicator">▲ 10%</span></div>
+
+    <section class="forecast-container" role="region" aria-labelledby="forecast-title">
+        <div class="forecast-header">
+            <img src="clock-icon.png">
+            <h2 id="forecast-title">Hourly Forecast</h2>
         </div>
-    </div>
-    <div class="data-card">
-        <div class="data-icon"><img src="storage/img/waves.png"></div>
-        <div>
-            <div class="data-label">Pressure</div>
-            <div class="data-value">720 hpa <span class="change-indicator">▲ 32 hpa</span></div>
+        <div class="forecast">
+            <div class="forecast-item">
+                <p>Now</p>
+                <img src="partly-cloudy.png">
+                <p>10&deg;</p>
+            </div>
+            <div class="forecast-item">
+                <p>10AM</p>
+                <img src="cloudy.png">
+                <p>8&deg;</p>
+            </div>
+            <div class="forecast-item">
+                <p>11AM</p>
+                <img src="cloudy.png">
+                <p>5&deg;</p>
+            </div>
+            <div class="forecast-item">
+                <p>12PM</p>
+                <img src="partly-cloudy.png">
+                <p>12&deg;</p>
+            </div>
+            <div class="forecast-item">
+                <p>1PM</p>
+                <img src="partly-cloudy.png">
+                <p>9&deg;</p>
+            </div>
+            <div class="forecast-item">
+                <p>2PM</p>
+                <img src="cloudy.png">
+                <p>12&deg;</p>
+            </div>
         </div>
-    </div>
-    <div class="data-card">
-        <div class="data-icon"><img src="storage/img/light_mode.png"></div>
-        <div>
-            <div class="data-label">UV Index</div>
-            <div class="data-value">2,3 <span class="change-indicator">▼ 0.3</span></div>
-        </div>
-    </div>
-</div>
-<section class="forecast-container" role="region" aria-labelledby="forecast-title">
-    <div class="forecast-header">
-        <img src="clock-icon.png">
-        <h2 id="forecast-title">Hourly Forecast</h2>
-    </div>
-    <div class="forecast">
-        <div class="forecast-item">
-            <p>Now</p>
-            <img src="partly-cloudy.png">
-            <p>10&deg;</p>
-        </div>
-        <div class="forecast-item">
-            <p>10AM</p>
-            <img src="cloudy.png">
-            <p>8&deg;</p>
-        </div>
-        <div class="forecast-item">
-            <p>11AM</p>
-            <img src="cloudy.png">
-            <p>5&deg;</p>
-        </div>
-        <div class="forecast-item">
-            <p>12PM</p>
-            <img src="partly-cloudy.png">
-            <p>12&deg;</p>
-        </div>
-        <div class="forecast-item">
-            <p>1PM</p>
-            <img src="partly-cloudy.png">
-            <p>9&deg;</p>
-        </div>
-        <div class="forecast-item">
-            <p>2PM</p>
-            <img src="cloudy.png">
-            <p>12&deg;</p>
-        </div>
-    </div>
-</section>
+    </section>
 
 </body>
 </html>

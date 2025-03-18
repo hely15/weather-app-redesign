@@ -50,6 +50,7 @@ addEventListener('scroll', () => {
         result.style.color = "var(--color-2)"; // Cambiar el color de fuente
         searchImg.src = "../storage/img/search_black.png";  // Cambiar el icono de búsqueda
         content.style.marginTop = "375px";  // Ajustar el margen superior del contenido
+        data_grid.style.top = "333px";  // Ajustar la posición superior de '.data_grid'
     } else {
         // Aplicar la nueva altura y el radio de borde a la barra de herramientas
         toolbar.style.height = newHeight + 'px';
@@ -68,6 +69,7 @@ addEventListener('scroll', () => {
         search.style.color = "var(--color-1)"; // Cambiar el color de fuente
         searchImg.src = "../storage/img/search_white.png";  // Cambiar el icono de búsqueda
         content.style.marginTop = "455px";  // Ajustar el margen superior del contenido
+        data_grid.style.top = "420px"; 
     }    
 });
 
